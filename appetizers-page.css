@@ -10,17 +10,51 @@ p {
 .raffaello {
     margin-top: 20px;
     margin-left: 20px;
-    border: 2px solid;
     width: 400px;
     height: 400px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: column;
+    border: 2px solid #ddd;
+    transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.raffaello:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-color: #333;
 }
 
 .name-raffaello {
     font-size: 20px;
     margin-top: 5px;
     margin-bottom: 15px;
+}
+
+.fajitas {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    border: 2px solid #ddd;
+    transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.fajitas:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-color: #333;
+}
+
+.name-fajitas {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+.body-content {
+    display: flex;
 }
